@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	font-family: sans-serif;
+}
+.nav-logo , .nav-links{
+	display: inline-block;
+}
+.google-logo{
+	width: 10rem;
+}
+
+ul li{
+	 display: inline-block; 
+}
+.main-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2% 10%;
+	
+}
+a,li{
+	text-decoration: none; 
+	margin: 0 0.3rem ;
+	color: #000
+}
+
+.active{
+	background-color: orange;
+	padding: 0.2rem;
+	color: #fff;
+}
+.fa-bag-shopping{
+	font-size: 1.9rem;
+}
+.fa-magnifying-glass{
+	font-size: 1.5rem;
+	margin: 0 0 0 0.3rem;
+}
+.bg-image{
+	background: center / cover no-repeat url("../img/bgimg.jpg");
+	height: 31.7rem;
+}
+.bg-image-sec{
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.main-heading{
+	font-size: 3rem;
+	color: #fff;
+	margin: 3rem 0 0 0;
+}
+.bg-image-sec p{
+		margin:  0 4rem 0 0; 
+		color: #fff;
+		opacity: 0.4;
+}
+.btn-sec{
+	margin: 1rem 0 0 0;
+}
+.btn-sec button{
+	padding: 0.5rem 1rem;	
+	color: #fff;
+	border: none;
+	font-weight: 700;
+	cursor: pointer;
+	
+}
+
+button:first-child{
+	background-color: orange; 
+	
+}
+button:last-child{
+	background-color: black; 
+}
