@@ -9,53 +9,43 @@ body{
 	font-family: sans-serif;
 	background: #f7f7f7;
 }
-
-.nav-logo{
-	/* width:100% */
-	/* overflow: auto; */
-}
-.nav-links{
-	float: right;
-	/* padding: 1.5rem 0 0 0; */
-	/* display: inline-block; */
+.main-nav{
+	overflow: auto;
+	padding: 0 3rem;
 }
 
-/* section{ */
-	/* width: 100%; */
-	/* float: left; */
-	
-/* } */
-.google-logo{
+.main-nav .nav-logo{
+	float:left;
+}
+
+.nav-logo a img{
 	/* float: left; */
 	width: 10rem;
 }
 
+.main-nav .nav-links{
+	float: right;
+	
+}
+
+ul{
+	line-height: 5rem;
+	float: left;
+}
+
 ul li{
-	/* float: left; */
+	float: left; 
 	list-style: none;
-	margin: 0 0.5rem;
+	padding: 0 0.5rem;
 	text-decoration: none; 
 	color: #000
 	 /* display: inline-block;  */
 }
-header{
-	background: #f7f7f7;	
-}
-.main-nav{
-	/* margin: 1rem 5rem 1rem 3rem; */
-	/* overflow: auto; */
-	
-	
-	
-	/* display: flex; */
-	/* justify-content: space-between; */
-	/* align-items: center; */
-	/* margin: 2% 10%; */
-	
-}
+
+
 a{
 	text-decoration: none; 
-	margin: 0 0.3rem ;
+	padding: 0.5rem ;
 	color: #000
 }
 
@@ -64,62 +54,61 @@ a{
 	padding: 0.5rem;
 	color: #fff;
 }
+
 .fa-bag-shopping{
 	font-size: 1.9rem;
 }
 .fa-magnifying-glass{
 	font-size: 1.5rem;
-	margin: 0 0 0 0.3rem;
+	padding: 0 0 0 0.3rem;
 }
 .bg-image{
 	background: center / cover no-repeat url("../img/bgimg.jpg");
 	height: 32.7rem;
 }
 
-
-.bg-image-sec{
-	float: right;
-	margin: 3rem 20rem 0 0;
-	/* display: flex; */
-	/* text-align: left; */
-	/* flex-direction: column; */
-	/* justify-content: flex-start; */
-	/* align-items: center; */
-	
-}
 .main-heading{
 	font-size: 3rem;
 	color: #fff;
-	margin: 3rem 0 0 0;
+	
 }
+
+.bg-image-sec{
+	padding: 3rem 0 0 0;
+	/* float: right; */
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;	
+}
+
 .bg-image-sec p{
-		margin:  0 4rem 0 0; 
+		padding:  0 4rem 0 0; 
 		color: #fff;
 		opacity: 0.4;
 }
-.btn-sec{
-	margin: 1rem 0 0 4rem;
+bg-image-sec{
+	padding: 1rem 0 0 4rem;
 }
-.btn-sec button{
+.bg-image .bg-image-sec button{
 	padding: 0.5rem 1rem;	
 	color: #fff;
 	border: none;
 	font-weight: 700;
 	cursor: pointer;
+	background:orange;
 	
 }
 
-
-button:first-child{
-	background-color: orange; 
+.bg-image .bg-image-sec button{
+	background: orange; 
 	
 }
-button:last-child{
-	background-color: black; 
+.bg-image .bg-image-sec div button:last-child{
+	background: black; 
 }
 
 .fa{
-	margin: 0 0.5rem;
+	padding: 0 0.5rem;
 }
 
 .about-us:hover,.services:hover,.project:hover,.blog:hover,.shop:hover,.pages:hover,.contact:hover{

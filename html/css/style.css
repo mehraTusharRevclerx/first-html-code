@@ -2,29 +2,58 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 }
+
 body{
+	
 	font-family: sans-serif;
+	background: #f7f7f7;
 }
-.nav-logo , .nav-links{
-	display: inline-block;
+
+.nav-logo{
+	/* width:100% */
+	/* overflow: auto; */
 }
+.nav-links{
+	float: right;
+	/* padding: 1.5rem 0 0 0; */
+	/* display: inline-block; */
+}
+
+/* section{ */
+	/* width: 100%; */
+	/* float: left; */
+	
+/* } */
 .google-logo{
+	/* float: left; */
 	width: 10rem;
 }
 
 ul li{
-	 display: inline-block; 
+	/* float: left; */
+	list-style: none;
+	margin: 0 0.5rem;
+	text-decoration: none; 
+	color: #000
+	 /* display: inline-block;  */
+}
+header{
+	background: #f7f7f7;	
 }
 .main-nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 2% 10%;
+	/* margin: 1rem 5rem 1rem 3rem; */
+	/* overflow: auto; */
+	
+	
+	
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	/* margin: 2% 10%; */
 	
 }
-a,li{
+a{
 	text-decoration: none; 
 	margin: 0 0.3rem ;
 	color: #000
@@ -32,7 +61,7 @@ a,li{
 
 .active{
 	background-color: orange;
-	padding: 0.2rem;
+	padding: 0.5rem;
 	color: #fff;
 }
 .fa-bag-shopping{
@@ -44,14 +73,18 @@ a,li{
 }
 .bg-image{
 	background: center / cover no-repeat url("../img/bgimg.jpg");
-	height: 31.7rem;
+	height: 32.7rem;
 }
+
+
 .bg-image-sec{
-	display: flex;
-	text-align: left;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
+	/* float: right; */
+	/* margin: 3rem 20rem 0 0; */
+	/* display: flex; */
+	/* text-align: left; */
+	/* flex-direction: column; */
+	/* justify-content: flex-start; */
+	/* align-items: center; */
 	
 }
 .main-heading{
@@ -65,7 +98,7 @@ a,li{
 		opacity: 0.4;
 }
 .btn-sec{
-	margin: 1rem 0 0 0;
+	margin: 1rem 0 0 4rem;
 }
 .btn-sec button{
 	padding: 0.5rem 1rem;	
@@ -76,10 +109,22 @@ a,li{
 	
 }
 
+
 button:first-child{
 	background-color: orange; 
 	
 }
 button:last-child{
 	background-color: black; 
+}
+
+.fa{
+	margin: 0 0.5rem;
+}
+
+.about-us:hover,.services:hover,.project:hover,.blog:hover,.shop:hover,.pages:hover,.contact:hover{
+		background-color: orange;
+		color: #fff;
+		/* padding: 0.2rem; */
+		
 }
