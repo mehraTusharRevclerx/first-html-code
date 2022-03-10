@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Decorators</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<nav class="main-nav">
-				<section class="nav-logo">
-					<img src="img/Google_2015_logo.png" class="google-logo"/>
-				</section>
-				<section class="nav-links">
-					<ul>
-						<li><a href="#" class="active">HOME</a></li>
-						<li><a href="#">ABOUT US</a></li>
-						<li><a href="#">SERVICES</a></li>
-						<li><a href="#">PROJECTS</a></li>
-						<li><a href="#">BLOG</a></li>
-						<li><a href="#">SHOP</a></li>
-						<li><a href="#">PAGES</a></li>
-						<li><a href="#">CONTACT</a></li>
-						<i class="fa-solid fa-bag-shopping "></i>
-						<i class="fa-solid fa-magnifying-glass"></i>
-					<ul>
-					
-				</section>
-			</nav>
-		</header>
-		<main class="bg-image">
-			<section class="bg-image-sec">
-				<h1 class="main-heading">WE GIVE LIFE TO<br>YOUR HOME</h1>
-				<p>Decorating decorators bring 20  years of experience <br> right to your home and office</p>
-				<section class="btn-sec">
-					<button class="active">Our Services</button>
-					<button>Buy Now</button>
-				</section>
-				
-				
-			</section>
-		</main>
-		<footer></footer>
-	</body>
+   <head>
+      <title>Decorators</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="css/style1.css">
+   </head>
+   <body>
+      <header class="main-nav">
+         <section class="nav-logo">
+			<a href="#" ">
+				<img src="img/logo.png" />
+			</a>
+         </section>
+         <section class="nav-links">
+            <ul>
+				<li><a href="#" class="active home">HOME</a></li>
+				<li><a href="#" class="about-us">ABOUT US</a></li>
+				<li><a href="#" class="services">SERVICES</a></li>
+				<li><a href="#" class="project">PROJECTS</a></li>
+				<li><a href="#" class="blog">BLOG</a></li>
+				<li><a href="#" class="shop">SHOP</a></li>
+				<li><a href="#" class="pages">PAGES</a></li>
+				<li><a href="#" class="contact">CONTACT</a></li>
+				<i class="fa-solid fa-bag-shopping fa"></i>
+				<i class="fa-solid fa-magnifying-glass fa"></i>
+            <ul>
+         </section>
+      </header>
+      <main class="bg-image">
+         <section class="bg-image-sec">
+               <h1 class="main-heading">WE GIVE LIFE TO<br>YOUR HOME</h1>
+               <p class="main-para">Decorating decorators bring 20  years of experience <br> right to your home and office</p>
+			   <section class="btn-sec">
+				   <button>Our Services</button>
+				   <button>Buy Now</button>
+			   </section>
+         </section>
+      </main>
+      <footer>
+      </footer>
+   </body>
 </html>
